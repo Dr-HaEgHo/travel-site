@@ -1,0 +1,44 @@
+.prefooter{
+    width: 100%;
+    background: blue;
+}
+
+.prefooter-image{
+    width: 100%;
+    height:750px;
+    overflow: hidden;
+}
+
+.prefooter-image img{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.prefooter h2{
+    color: white;
+    margin : 152px 0 0 0;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 108px;
+    width: 1017px;
+}
+
+.btn-pft{
+    margin: 71px 0 0 0;
+    padding: 22px 100px;
+}
+
+
+.prefooter-overlay{
+    width: 1440PX;
+    height: 750px;
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    z-index: 4;
+}
+
+.prefooter-content{
+    width: 85%;
+    margin: auto;
+}

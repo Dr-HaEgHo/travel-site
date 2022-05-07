@@ -1,0 +1,32 @@
+.navBar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+}
+
+.nav-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.1rem;
+    /* background-color: green; */
+    padding: 1.5rem 0;
+}
+
+.nav-items{
+    list-style: none;
+    display: flex;
+    flex: 1;
+    gap: 3rem;
+
+}
+
+.nav-items li{
+    font-size: 14px;
+    color:#fff;
+    font-weight: 400;
+}
+.nav-items li:hover{
+    text-decoration: underline;
+}

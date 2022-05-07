@@ -1,0 +1,82 @@
+.footer{
+    background: #fff;
+    padding: 5rem 0;
+
+}
+
+.footer-top{
+    display: flex;
+    /* background: yellow; */
+    gap: 3rem;
+}
+
+.footer-top ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 0 188px;
+}
+
+.footer-top ul li{
+    list-style: none;
+    color: #031530;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.heads{
+    color: #3E86F5;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0 0 40px 0;
+}
+
+.brand{
+    flex: 1;
+}
+
+.brand img{
+    margin: 0 0 27.04px 0;
+}
+
+.socials{
+    margin: 0 0 120px 0;
+    height: 42px;
+    display: flex;
+    gap: 25.42px;
+}
+
+.socials img{
+    height: 100%;
+}
+
+.brand h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 0 16px 0 ;
+}
+
+.brand-p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 170%;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 0 0 32px 0;
+    width: 217.63px;
+}
+
+.tiny{
+    color: rgba(0, 0, 0, 0.5);font-weight: 500;
+    font-size: 12px;
+    line-height: 209%;
+}
+
+.reserved{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 209%;
+}

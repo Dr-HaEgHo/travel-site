@@ -1,0 +1,17 @@
+.sponsors{
+    background: #F8F9FC;
+}
+
+.brands{
+    display: flex;
+    width: 100%;
+    padding: 10rem 0 3rem 0;
+    height: 120%;
+    justify-content: space-evenly;
+}
+
+.brands img{
+    height : 64px
+
+}
+
