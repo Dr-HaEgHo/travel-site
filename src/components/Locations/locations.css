@@ -1,7 +1,10 @@
+
+
 .loc-container{
     width: 100%;
     margin: auto;
     display: flex;
+    position: relative;
 }
 
 .location{
@@ -9,7 +12,13 @@
     height: 1024px;
     overflow: hidden;
     position: relative;
+    transition: .3s ease all;
+    /* pointer-events: none; */
 }
+
+/* .loc-container:active .location:nth-child(1){
+    width: 100%;
+} */
 
 @media(min-width: 1440px){
     .loc-container{
@@ -22,6 +31,7 @@
     position: absolute;
     left :50%;
     transform: translateX(-50%);
+    pointer-events: none;
 }
 
 .loc-overlay{
@@ -30,6 +40,8 @@
     height: 100%;
     position: absolute;
     display: flex;
+    pointer-events: none;
+    transition: .3s ease all;
     /* justify-content: flex-start; */
 }
 
@@ -41,10 +53,26 @@
     letter-spacing: -0.02em;
     color:#fff;
     width :100%;
-    padding: 1.5rem 0 0 0;
+    padding: 3rem 0 0 5rem;
     writing-mode: vertical-lr;
-    transform: rotateZ(-180deg);
+    /* transform: rotateZ(-180deg); */
     display: flex;
     align-items: flex-start;
     /* justify-self: start; */
+    transition: .3s ease all;
+}
+
+.bk-btn{
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    display: none;
+    background-color: #3E86F5;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    z-index: 1;
+    border: none;
+    color: #fff;
+    font-size: 20px;
 }

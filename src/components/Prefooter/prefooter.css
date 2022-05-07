@@ -1,23 +1,26 @@
 .prefooter{
     width: 100%;
-    background: blue;
+    /* background: blue; */
 }
 
 .prefooter-image{
+    background: url(../../assets/woman-skating.jpg) no-repeat;
+    background-size:cover;
     width: 100%;
     height:750px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .prefooter-image img{
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
 }
 
 .prefooter h2{
     color: white;
-    margin : 152px 0 0 0;
+    padding: 152px 0 0 0;
+    /* margin : 152px 0 0 0; */
     font-weight: 600;
     font-size: 72px;
     line-height: 108px;
@@ -31,10 +34,10 @@
 
 
 .prefooter-overlay{
-    width: 1440PX;
+    width: 100%;
     height: 750px;
     background: rgba(0,0,0,0.7);
-    position: absolute;
+    /* position: absolute; */
     z-index: 4;
 }
 

@@ -13,7 +13,7 @@ const Prefooter = () => {
                       <button className='btn-dark btn-pft'>View Passes</button>
                       </div>
                   </div>
-                  <img src={womanSkating} alt='skating woman'></img>
+                  {/* <img src={womanSkating} alt='skating woman'></img> */}
                 </div>
           </div>
     </div>
