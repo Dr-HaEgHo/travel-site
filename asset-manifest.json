@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/travel-site/static/css/main.9450e725.css",
+    "main.js": "/travel-site/static/js/main.2e4c06a3.js",
+    "static/media/bg.jpg": "/travel-site/static/media/bg.9bc6f7066aee88369a5e.jpg",
+    "static/media/palms.webp": "/travel-site/static/media/palms.00c3f21bd3f404d3eb23.webp",
+    "static/media/skiier-downhill.webp": "/travel-site/static/media/skiier-downhill.119ae79a6204a559df1b.webp",
+    "static/media/snowboarder.jpg": "/travel-site/static/media/snowboarder.a40c79a9596fd11522e7.jpg",
+    "static/media/skiier.jpg": "/travel-site/static/media/skiier.e9f90cc6b10837d771ae.jpg",
+    "static/media/woman-skating.jpg": "/travel-site/static/media/woman-skating.36df45bbc0e5add7e670.jpg",
+    "static/media/tourist.webp": "/travel-site/static/media/tourist.2831102e8733c4cfde49.webp",
+    "static/media/map.png": "/travel-site/static/media/map.1b87be1eb2035ee621ae.png",
+    "static/media/tropical.webp": "/travel-site/static/media/tropical.2b8cb8f7e7358128dc27.webp",
+    "static/media/chalet.webp": "/travel-site/static/media/chalet.10730ab84f54f751df6e.webp",
+    "index.html": "/travel-site/index.html",
+    "main.9450e725.css.map": "/travel-site/static/css/main.9450e725.css.map",
+    "main.2e4c06a3.js.map": "/travel-site/static/js/main.2e4c06a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9450e725.css",
+    "static/js/main.2e4c06a3.js"
+  ]
+}
